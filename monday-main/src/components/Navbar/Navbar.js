@@ -49,8 +49,8 @@ const Navbar = () => {
         </ul>
         
 
-    
-    <form className="d-flex input-group w-auto">
+    <div class=" bg-info">
+    <form className="d-flex input-group w-auto ">
       <input
         type="search"
         className="form-control rounded"
@@ -62,6 +62,7 @@ const Navbar = () => {
         <i className="fas fa-search"></i>
       </span>
     </form>
+    </div>
 
     <div onClick={handleToggle} className="toggle-button">
           <i className={toggle ? "fas fa-times" : "fas fa-bars"}></i>

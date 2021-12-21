@@ -3,8 +3,8 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-           <h1> About </h1>
-           <p>
+           <h4 className="px-4 mt-4 "> About </h4>
+           <p className=" small px-4 text-left">
            Welcome to Monday, the leading Public Relations and Communications agency in the Nordic culture field.
 
 The agency has a long-term commitment to arts & science, promoting art, literature, film, music, stage and science throughout Denmark, Finland, Iceland, Norway and Sweden.
