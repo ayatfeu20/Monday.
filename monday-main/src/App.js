@@ -12,6 +12,7 @@ import Stage from "./pages/Stage";
 import Film from "./pages/Film";
 import Science from "./pages/Science";
 import Music from "./pages/Music";
+import Footer from "./components/Footer/Footer";
 
 
 
@@ -46,6 +47,7 @@ function App() {
 
      <Cards />
      <Cardstwo />
+     <Footer />
      
      </div>
 
