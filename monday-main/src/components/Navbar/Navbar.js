@@ -49,9 +49,9 @@ const Navbar = () => {
         </ul>
         
 
-    <div >
-      <h6 class="text-center text-">Use serach engine here</h6>
-    <form className="d-flex input-group w-auto bg-info ">
+    <div class= "alert alert-dark" >
+      <h6 class="text-center text-">Use our serach engine here</h6>
+    <form className="d-flex input-group w-auto bg-info  ">
       <input
         type="search"
         className="form-control rounded"

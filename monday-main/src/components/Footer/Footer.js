@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
          
           
-            <h4></h4>
+            <h6 class = "font-weight-normal">
             <ui className="list-unstyled text-center">
               <li class="h4">Contact</li>
               <li>Address: Floragatan 4B / Villa Sandrew </li>
@@ -16,11 +16,12 @@ function Footer() {
               <li>Telephone: +46 (0)8 661 90 94</li>
               <li>hello@mondayrelations.se</li>
             </ui>
+            </h6>
           </div>
         
         <hr />
         <div className="row">
-          <p className="col-sm text-center">
+          <p className="col-sm text-center font-weight-light ">
             &copy; 2021| All rights reserved |
             Terms Of Service | Privacy
           </p>

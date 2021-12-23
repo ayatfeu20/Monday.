@@ -3,25 +3,26 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-           <h4 className="px-4 mt-4 "> About </h4>
-           <p className=" small px-4 text-left">
-           Welcome to Monday, the leading Public Relations and Communications agency in the Nordic culture field.
+           <h4 className="px-5 mt-4 "> About </h4>
+           <p className=" small px-5 text-wrap text-left text-justify ">
+           Welcome to Monday, the leading Public Relations and Communications agency in the Nordic culture field.<br></br>
+           <br></br>
 
-The agency has a long-term commitment to arts & science, promoting art, literature, film, music, stage and science throughout Denmark, Finland, Iceland, Norway and Sweden.
+The agency has a long-term commitment to arts & science, promoting art, literature, film, music, stage and science throughout Denmark, Finland, Iceland, Norway and Sweden.<br></br> <br></br>
 
-Our specialty is bringing culture and business together with great sensitivity to our client's habitat and context. We believe in a balanced and integrated media strategy based on traditional channels as well as digital media such as social networks, blogs and webcasts to achieve optimal media presence.
+Our specialty is bringing culture and business together with great sensitivity to our client's habitat and context. We believe in a balanced and integrated media strategy based on traditional channels as well as digital media such as social networks, blogs and webcasts to achieve optimal media presence.<br></br><br></br>
 
-Monday also provides Public Affairs, Corporate Positioning, Crisis Management, Media Training, Corporate Social Responsibility, Opinion Research and Organisational Communication services.
+Monday also provides Public Affairs, Corporate Positioning, Crisis Management, Media Training, Corporate Social Responsibility, Opinion Research and Organisational Communication services.<br></br><br></br>
 
-Camilla Nasiell, CEO
+Camilla Nasiell, CEO<br></br><br></br>
 
-The company
+The company<br></br><br></br>
 
-Monday was founded in 2002 by Camilla Nasiell and Stellan Forsberg. Mrs Nasiell has a Master of Journalism and 15 years of experience of communication in TV, film and media.
+Monday was founded in 2002 by Camilla Nasiell and Stellan Forsberg. Mrs Nasiell has a Master of Journalism and 15 years of experience of communication in TV, film and media.<br></br><br></br>
 
-Mr Forsberg has 15 years of experience of investment banking and finance. He is the founder and former CEO of MFEX (Mutual Funds Exchange), Europe’s largest independent marketplace for mutual funds. Mr Forsberg graduated in business administration at the University of Stockholm and received his management training at IMD, Lausanne.
+Mr Forsberg has 15 years of experience of investment banking and finance. He is the founder and former CEO of MFEX (Mutual Funds Exchange), Europe’s largest independent marketplace for mutual funds. Mr Forsberg graduated in business administration at the University of Stockholm and received his management training at IMD, Lausanne.<br></br><br></br>
 
-Monday engages a handful of experts in various cultural and science fields throughout the Nordic. Each assignment is given an optimal project team for top quality and personal fulfilment.
+Monday engages a handful of experts in various cultural and science fields throughout the Nordic. Each assignment is given an optimal project team for top quality and personal fulfilment.<br></br><br></br>
 
            </p>
                
