@@ -2,11 +2,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
     background:white;
     color: rgb(247, 43, 145);
     padding: 0 3rem;
     position: relative;
+    margin: 0;
 }
 
 .navbar-brand{
@@ -15,30 +16,30 @@ nav{
 
 }
 
-ul {
+.navbar ul {
     display: flex;
     list-style-type: none;
 }
 
-ul li {
+.navbar ul li {
     margin: 0 1rem;
 }
 
-ul li a {
+.navbar ul li a {
     text-decoration: none;
     display: block;
     color: rgb(247, 43, 145);
     position: relative;
 }
 
-ul li a:hover {
+.navbar ul li a:hover {
     color: rgb(146, 5, 76);
   }
 
-ul li a::after {
+.navbar ul li a::after {
     content: "";
     position: absolute;
-    height: 0.1rem;
+    height: 0.2rem;
     width: 0;
     left: 0;
     top: 1.8rem;
@@ -46,11 +47,11 @@ ul li a::after {
     transition: 0.3s linear;
 }
 
-ul li a:hover::after {
+.navbar ul li a:hover::after {
     width: 100%;
   }
 
-ul li a.clicked::after {
+.navbar ul li a.clicked::after {
     width: 100%;
   }
 
