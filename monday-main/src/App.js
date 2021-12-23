@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
 import Navbar from './components/Navbar/Navbar';
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Cards from './components/Cards';
-import Cardstwo from "./components/Cardstwo";
+
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Art from "./pages/Art";
@@ -26,7 +27,9 @@ function App() {
   }, []); 
 
   return (
-    <div className="App">
+    
+    <div className="App"  >
+    
      
       
      <Router>
@@ -45,8 +48,10 @@ function App() {
 
      
 
-     <Cards />
-     <Cardstwo />
+     
+     
+     
+     
      <Footer />
      
      </div>
