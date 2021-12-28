@@ -3,7 +3,7 @@ import React from 'react'
 const Stage = () => {
     return (
         <div>
-            <h1>Stage</h1>
+            <h4 className="px-5 mt-4 "> Stage </h4>
         </div>
     )
 }

@@ -20,7 +20,7 @@ function Cards() {
               
               <li className="d-flex align-items-center me-3">
                 <svg className="bi me-2" width="1em" height="1em"><use href="#geo-fill"></use></svg>
-                <small><a href="#" className="btn btn-info">Läs mer</a></small>
+                <small><a href="#" className="btn btn-info">Read more</a></small>
               </li>
               <li className="d-flex align-items-center">
                 <svg className="bi me-2" width="1em" height="1em"><use href="#calendar3"></use></svg>
@@ -39,7 +39,7 @@ function Cards() {
              
               <li className="d-flex align-items-center me-3">
                 <svg className="bi me-2" width="1em" height="1em"><use href="#geo-fill"></use></svg>
-                <small><a href="#" className="btn btn-info">Läs mer</a></small>
+                <small><a href="#" className="btn btn-info">Read more</a></small>
               </li>
               <li className="d-flex align-items-center">
                 <svg className="bi me-2" width="1em" height="1em"><use href="#calendar3"></use></svg>
@@ -58,7 +58,7 @@ function Cards() {
               
               <li className="d-flex align-items-center me-3">
                 <svg className="bi me-2" width="1em" height="1em"><use href="#geo-fill"></use></svg>
-                <small><a href="#" className="btn btn-info">Läs mer</a></small>
+                <small><a href="#" className="btn btn-info">Read more</a></small>
               </li>
               <li className="d-flex align-items-center">
                 <svg className="bi me-2" width="1em" height="1em"><use href="#calendar3"></use></svg>

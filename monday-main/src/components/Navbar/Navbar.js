@@ -50,11 +50,11 @@ const Navbar = () => {
         
 
     <div class= "alert alert-dark" >
-      <h6 class="text-center text-">Use our serach engine here</h6>
-    <form className="d-flex input-group w-auto bg-info  ">
+      <h6 class="text-center ">Use our serach engine here</h6>
+    <form className="d-flex input-group w-auto   ">
       <input
         type="search"
-        className="form-control rounded"
+        className="form-control rounded bg-light "
         placeholder="Search"
         aria-label="Search"
         aria-describedby="search-addon"

@@ -55,6 +55,16 @@ nav{
     width: 100%;
   }
 
+  form{
+    background-color:  rgb(247, 43, 145);
+    }
+
+    form .form-control
+    {
+      border-width: 2px;
+      border-color:  rgb(247, 43, 145);
+    }
+
   .toggle-button {
     display: none;
     font-size: 1.8rem;
@@ -74,17 +84,18 @@ nav{
   ul {
     flex-direction: column;
     position: fixed;
-    top: 8vh;
-    background: pink;
+    top: 14vh;
+    background: hsl(202, 83%, 73%);
     width: 100%;
     height: 100%;
     left: -1000px;
     justify-content: flex-start;
     align-items: center;
+    
   }
 
   ul li {
-    padding: 2rem 0;
+    padding: 1rem 0;
     font-size: 1.2rem;
   }
 
@@ -92,7 +103,12 @@ nav{
     left: 0;
   }
 
-  form {
+  .alert {
       display: none;
+  }
+
+  .main-footer
+  {
+    display:none;
   }
   }
