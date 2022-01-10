@@ -1,20 +1,24 @@
 {
-  "name": "monday-main",
+  "name": "monday-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "engines": {
-    "node": "15.7.0"
-  },
+  "description": "Monday Ajax server",
+  "main": "app.js",
   "scripts": {
-    "start": "node server/index.js",
-    "build": "cd monday-main && npm install && npm run build"
+    "start": "node monday-server/app.js",
+    "build": "cd monday-main && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+
+  "engines": {
+    "node": "16.13.1"
+  },
+  "author": "Bo Grus",
   "license": "ISC",
   "dependencies": {
+    "ajax": "^0.0.4",
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "react-router-dom": "^6.1.1"
+    "node-fetch": "^2.6.6"
   }
 }
