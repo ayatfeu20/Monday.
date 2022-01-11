@@ -8,7 +8,6 @@
     "build": "cd monday-main && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "engines": {
     "node": "16.13.1"
   },
