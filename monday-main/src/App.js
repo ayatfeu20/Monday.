@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Sidbar from ' ./components/Sidbar';
+import Sidbar from ' ../components/Sidbar';
 
 
 import Home from "./pages/Home";
@@ -21,6 +21,9 @@ var param = {};
 param._api_token = "DB6A520C73B3513661DEB6BC3C9C688F";
 param._group = "Article";
 param._action = "ArticleGet";
+param._from_no = "1",
+param._limit = "12",
+param_typ = "2"
 
 
 class App extends React.Component{

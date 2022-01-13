@@ -12,7 +12,7 @@ const StyledSideNav = styled.div`
     padding-top: 20px;
 `;
 
-class SideNav extends component {
+class SideNav extends React.Component {
     
     render() {
            return(
