@@ -8,9 +8,9 @@ function Footer() {
         <div className="row">
          
           
-            <h6 class = "font-weight-normal">
+            <h6 className = "font-weight-normal">
             <ui className="list-unstyled text-center">
-              <li class="h4">Contact</li>
+              <li className="h4">Contact</li>
               <li>Address: Floragatan 4B / Villa Sandrew </li>
               <li>SE-114 31 Stockholm, Sweden</li>
               <li>Telephone: +46 (0)8 661 90 94</li>

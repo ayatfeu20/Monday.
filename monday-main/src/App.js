@@ -4,6 +4,8 @@ import Navbar from './components/Navbar/Navbar';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import Sidbar from ' ./components/Sidbar';
+
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -19,9 +21,6 @@ var param = {};
 param._api_token = "DB6A520C73B3513661DEB6BC3C9C688F";
 param._group = "Article";
 param._action = "ArticleGet";
-param._from_no = "1",
-param._limit = "12",
-param._typ = "2"
 
 
 class App extends React.Component{
@@ -41,21 +40,22 @@ class App extends React.Component{
 
 
 
-  /*constructor(props){
+ constructor(props){
   super (props);
   this.state ={apiResponse:""};
   }
 
   callApi(){
-    fetch("http://127.0.0.1:3009/api")
-    .then(res => res.text())
+    fetch('http://127.0.0.1:3009/api')
+    .then(res => res.json())
+    /*.then (text => console.log(text));*/
     .then(res => this.setState ({apiResponse: res}));
 
   }
 
-  componentWillMount(){
+  componentMidMount(){
     this.callApi();
-  }*/
+  }
 
 
 render(){
@@ -81,6 +81,7 @@ render(){
       
      <Router>
      <Navbar />
+     <Sidbar/>
      <Switch>
      <Route  exact path="/" component={Home} /> 
      <Route  exact path="/about" component={About} />
