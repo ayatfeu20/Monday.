@@ -15,7 +15,17 @@ function Art() {
     articles._from_no = "1";
     articles._limit = "12";
     articles._typ = "1";
-    fetch("http://127.0.0.1:3009/api")
+
+    fetch('http://127.0.0.1:3009/api', {
+        method: 'POST',
+        mode: 'cors',
+        headers: {
+            'Access-Control-Allow-Origin':'*',
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(articles) })
+    
       .then((res) => res.json())
       .then(
         (article) => {
