@@ -3,7 +3,16 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-           <h4 className="px-5 mt-4 "> About </h4>
+        
+         <div className="container px-4 py-4 border-left " >
+                 
+             
+         <div className="col d-flex "> 
+              
+          
+         <div className='container '> 
+         <h4 className="px-5 mt-4 "> About </h4>
+           
            <p className=" small px-5 text-wrap text-left text-justify ">
            Welcome to Monday, the leading Public Relations and Communications agency in the Nordic culture field.<br></br>
            <br></br>
@@ -25,8 +34,11 @@ Mr Forsberg has 15 years of experience of investment banking and finance. He is 
 Monday engages a handful of experts in various cultural and science fields throughout the Nordic. Each assignment is given an optimal project team for top quality and personal fulfilment.<br></br><br></br>
 
            </p>
-               
+           </div>
         </div>
+       </div>        
+        </div>
+    
     )
 }
 

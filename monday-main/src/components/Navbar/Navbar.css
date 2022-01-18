@@ -55,15 +55,7 @@ nav{
     width: 100%;
   }
 
-  form{
-    background-color:  rgb(247, 43, 145);
-    }
-
-    form .form-control
-    {
-      border-width: 2px;
-      border-color:  rgb(247, 43, 145);
-    }
+  
 
   .toggle-button {
     display: none;
@@ -103,12 +95,7 @@ nav{
     left: 0;
   }
 
-  .alert {
-      display: none;
-  }
+ 
 
-  .main-footer
-  {
-    display:none;
-  }
+ 
   }
