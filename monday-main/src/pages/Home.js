@@ -63,23 +63,30 @@ function Home() {
         <div>
            {
            articles.map((article) => ( 
-                <div className="container-flex">
-   <div className="card px-5 pt-5 ">
+                <div className="container pt-2">
+                  <div className='row'>
+                  
+         <div className='col'  ></div>     
+          <div className="col-10 d-flex "> 
+   <div className="card px-4 pt-2 ">
             <div className=" card-body row no-gutters">
             <div className="col-auto">
-                <img src= {article.file} class="img-fluid" alt="" placeholder={article.nice_name}></img>
+            
+            <img src={`../upload/images/${article.file}.jpg`} />
             </div>
             <div className="col">
                 <div className="card-block ">
                     <h6 className="p-1 mb-1 bg-light text-dark text-end"> {article.typ} - {article.datum}</h6>
-                    <h4 className="card-title">{article.title}</h4>
+                    <h5 className="card-title">{article.title}</h5>
                     <p className="card-text">{article.preamble}</p>
                       
                 </div>
             </div>
         </div>
   </div>
-  </div>    
+  </div> 
+  </div>
+  </div>   
                 ))
             } 
 

@@ -4,10 +4,11 @@ const About = () => {
     return (
         <div>
         
-         <div className="container px-4 py-4 border-left " >
-                 
-             
-         <div className="col d-flex "> 
+         <div className="container px-4 py-4 " >
+        <div className='row'>
+         <div className='col'  ></div>     
+          
+         <div className="col-10 d-flex "> 
               
           
          <div className='container '> 
@@ -36,9 +37,10 @@ Monday engages a handful of experts in various cultural and science fields throu
            </p>
            </div>
         </div>
+        
        </div>        
         </div>
-    
+</div>
     )
 }
 
