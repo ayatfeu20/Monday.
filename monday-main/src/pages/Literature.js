@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Literature() {
  
@@ -61,17 +62,20 @@ function Literature() {
 
     return (
         <div>
+    <ul className=" align-items-left d-flex justify-content-end font-bold px-5">
+    <li ><Link to="/"><u>Back to Home</u></Link></li>
+   </ul>
            {
            articles.map((article) => ( 
                 <div className="container pt-2">
                   <div className='row'>
                   
                   <div className='col'  ></div>     
-                   <div className="col-10 d-flex ">
-   <div className="card px-5 pt-5 ">
+                   <div className="align-items-center d-flex justify-content-center ">
+   <div className="card px-5 pt-5 m-1 w-75">
             <div className=" card-body row no-gutters">
             <div className="col-auto">
-            <img src={`../upload/images/${article.file}.jpg`} />
+            <img src={`../upload/images/${article.file}.jpg`} alt=""/>
             </div>
             <div className="col">
                 <div className="card-block ">

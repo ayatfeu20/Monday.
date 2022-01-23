@@ -1,7 +1,8 @@
 import React  from "react";
 import "./App.css";
 import Navbar from './components/Navbar/Navbar';
-import Sidebar from './components/Sidebar';
+import Footer from './components/Footer/Footer';
+import Search from './components/Search';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -15,6 +16,8 @@ import Science from "./pages/Science";
 import Music from "./pages/Music";
 
 
+
+
 const App = () => {
 
   return (
@@ -22,13 +25,20 @@ const App = () => {
    
     <div className="App"  >
     
-     
+    
       
      <Router>
      <Navbar />
-     <Sidebar />
      
-    
+     <div className='overlay align-items-center d-flex justify-content-center pt-5'>
+     <Search /> </div>
+
+     
+  
+
+
+         
+              
      <Switch>
      
      <Route  exact path="/" component={Home} /> 
@@ -41,6 +51,11 @@ const App = () => {
      <Route  exact path="/music" component={Music} />
      </Switch>
      </Router>
+
+     
+     
+
+     <Footer/>
 
      
      

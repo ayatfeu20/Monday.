@@ -1,11 +1,17 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 
+
 function Home() {
  
   const [articles , setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+   
+  
+  
+  
 
   useEffect(() => {
     var articles = {}; 
@@ -31,6 +37,7 @@ function Home() {
         (article) => {
           setData(article);
           setLoading(false);
+        
         },
         (error) => {
           console.error("Error fetching data: ", error);
@@ -56,10 +63,32 @@ function Home() {
     // });
   }, []);
 
-  if (loading) return "Loading...";
+  if (loading) return "Loading {articles}";
   if (error) return "Error!";
+  const articlelist = () => {
+    
+    if (articles._action === 1) {
+    return (articlelist === 'Art');}
+    if (articles._action === 2) {
+    return (articlelist === 'Literature');}
+    if (articles._action === 3) {
+    return (articlelist === 'Stage');}
+    if (articles._action === 4) {
+    return (articlelist === 'Film');}
+    if (articles._action === 5) {
+    return (articlelist === 'Science');}
+    if (articles._action === 6){ 
+    return (articlelist === 'Music');}
+      }
+  
+  
+
+  
+
 
     return (
+             
+        
         <div>
            {
            articles.map((article) => ( 
@@ -67,16 +96,20 @@ function Home() {
                   <div className='row'>
                   
          <div className='col'  ></div>     
-          <div className="col-10 d-flex "> 
-   <div className="card px-4 pt-2 ">
+          <div className="align-items-center d-flex justify-content-center "> 
+   <div className="card px-4 pt-2 m-1 w-75 ">
             <div className=" card-body row no-gutters">
             <div className="col-auto">
             
-            <img src={`../upload/images/${article.file}.jpg`} />
+            <img src={`../upload/images/${article.file}.jpg`} alt="" />
             </div>
             <div className="col">
                 <div className="card-block ">
-                    <h6 className="p-1 mb-1 bg-light text-dark text-end"> {article.typ} - {article.datum}</h6>
+
+                               
+                      
+                    <h6 className="p-1 mb-1 bg-light text-dark text-end"> {articlelist} - {article.datum}</h6>
+                   
                     <h5 className="card-title">{article.title}</h5>
                     <p className="card-text">{article.preamble}</p>
                       
@@ -95,6 +128,7 @@ function Home() {
 
            
         </div>
+        
     )
 }
 

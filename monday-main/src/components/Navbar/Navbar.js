@@ -2,7 +2,6 @@ import React, { useState , useRef } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const linksContainer = useRef();
@@ -20,7 +19,7 @@ const Navbar = () => {
   <div className="container-fluid">
   
     <div className="navbar-brand">
-    <img src= "../images/monday_logo_new.jpg "/></div>
+    <a href="/"><img src= "../images/monday_logo_new.jpg" alt="HomePage"/></a></div>
 
     <ul ref={linksContainer} className={toggle ? "active" : ""}>
 
