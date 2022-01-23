@@ -1,9 +1,11 @@
 import React from 'react';
 import "./Footer.css"
 
+
 const Footer = () => {
   return(
-      <div className='main-footer'>
+      <div className='main-footer bg-info bg-gradient bg-opacity-50'>
+          
           <div className='container'>
               <div className='row'>
                   {/* column1 */}
@@ -36,7 +38,7 @@ const Footer = () => {
                   </div> */}
               </div>
               <hr />
-              <div className='row'>
+              <div className='row '>
                   <p className='col-sm'>
                       &copy;{new Date().getFullYear()} | All right reserved | Terms Of Service | Privacy
                   </p>

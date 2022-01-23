@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Background from '../components/Background';
+
 
 
 const About = () => {
     return (
         <div>
-         <Background/>       
+                
     <ul className=" align-items-left d-flex justify-content-end font-bold px-5 ">
     <li ><Link to="/"><u>Back to Home</u></Link></li>
    </ul>

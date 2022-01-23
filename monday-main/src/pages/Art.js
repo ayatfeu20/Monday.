@@ -73,7 +73,7 @@ function Art() {
            { 
            articles.map((article) => ( 
                      
-                <div className="container pt-2">
+                <div className="container pt-2 ">
                                                                     
                   <div className='row'>
          

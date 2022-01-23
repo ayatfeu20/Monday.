@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from './background/background-gb51b79aa7_1280.png'
+import img1 from './background/love-and-passion-background-backgrounds-romantic-1-5c9b9945866ba.png'
 
 function Background() {
  return (
