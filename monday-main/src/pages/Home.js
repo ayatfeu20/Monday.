@@ -89,7 +89,7 @@ function Home() {
     return (
              
         
-        <div>
+        <div className='pb-4'>
            {
            articles.map((article) => ( 
                 <div className="container pt-2">
@@ -108,7 +108,7 @@ function Home() {
 
                                
                       
-                    <h6 className="p-1 mb-1 bg-light text-dark text-end"> {articlelist} - {article.datum}</h6>
+                    <h6 className="p-1 mb-1 bg-dark bg-opacity-25 text-dark text-end"> {articlelist} - {article.datum}</h6>
                    
                     <h5 className="card-title">{article.title}</h5>
                     <p className="card-text">{article.preamble}</p>

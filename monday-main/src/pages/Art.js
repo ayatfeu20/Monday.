@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 
+
+
 function Art() {
  
   const [articles , setData] = useState(null);
@@ -66,7 +68,7 @@ function Art() {
    
 
     return (
-        <div>
+        <div className='pb-4'>
           <ul className=" align-items-left d-flex justify-content-end font-bold px-5">
     <li ><Link to="/"><u>Back to Home</u></Link></li>
    </ul>
@@ -91,9 +93,10 @@ function Art() {
             </div>
             <div className="col">
                 <div className="card-block ">
-                    <h6 className="p-1 mb-1 bg-light text-dark text-end"> Art - {article.datum}</h6>
+                    <h6 className="p-1 mb-1 bg-dark bg-opacity-25 text-dark text-end"> Art - {article.datum}</h6>
                     <h5 className="card-title">{article.title}</h5>
                     <p className="card-text">{article.preamble}</p>
+                    
                       
                 </div>
             </div>
